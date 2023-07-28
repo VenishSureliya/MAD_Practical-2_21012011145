@@ -33,11 +33,13 @@ class MainActivity : AppCompatActivity() {
     override fun onStop() {
         super.onStop()
         showMessage("onStop method is called!!")
+        showMessage("hello there!!!!!")
     }
 
     override fun onDestroy() {
         super.onDestroy()
         showMessage("onDestroy method is called!!")
+
     }
 
     fun showMessage(message: String){
